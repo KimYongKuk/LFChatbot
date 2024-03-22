@@ -2,6 +2,5 @@ streamlit
 numpy
 pandas
 openai
-streamlit_chat
 dotenv
 os
