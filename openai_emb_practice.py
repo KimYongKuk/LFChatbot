@@ -51,7 +51,7 @@ for file in txt_file_name:
 
 # 두 임베딩간 유사도 계산
 def cos_sim(A, B):
-    return dot(A, B)/(norm(A)*norm(B))
+    return dot(A, B) / (norm(A)*norm(B))
 
 # 질문을 임베딩하고, 유사도 높은 탑3 자료
 def return_answer_candidate(df, query):
