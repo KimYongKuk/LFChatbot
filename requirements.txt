@@ -4,6 +4,4 @@ pandas
 openai
 streamlit_chat
 dotenv
-ast
-numpy.linalg
 os
