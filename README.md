@@ -1,2 +1,6 @@
-# LFChatbot
-# streamlit
+#streamlit
+#numpy
+#pandas
+#openai
+#dotenv
+#os

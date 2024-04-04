@@ -1,6 +1,6 @@
 streamlit
+streamlit_chat
 numpy
 pandas
 openai
-dotenv
-os
+python-dotenv
