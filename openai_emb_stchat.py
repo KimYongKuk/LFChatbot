@@ -48,7 +48,7 @@ def return_answer_candidate(df, query):
     # 입력된 질문과 각 문서의 유사도
     df['similarity'] = df['embedding'].apply(lambda x: cos_sim(np.array(query_embedding), np.array(x)))
     # 유사도 높은 순으로 정렬
-    top2 = df.sort_values("similarity", ascending=False).head(2)
+    top2 = df.sort_values("similarity", ascending=False).head(3)
     return top2
 
 
