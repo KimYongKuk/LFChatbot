@@ -1,0 +1,13 @@
+cookie:
+  expiry_days: 30
+  key: landf
+  name: landfname
+credentials:
+  usernames:
+    wg0403:
+      email: wg0403@gmail.com
+      name: "\uAE40\uC6A9\uAD6D"
+      password: abc
+pre-authorized:
+  emails:
+  - wg0403@gmail.com
